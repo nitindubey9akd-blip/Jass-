@@ -29,7 +29,7 @@ function createParticles() {
 }
 
 // 2. Typewriter Effect (Updated Text for Friend)
-const textToType = "Happy Birthday! Jaspreet! 🎉🎂 Wishing you a day filled with love, joy, and unforgettable moments! 🥳🎈"; 
+const textToType = "Happy Birthday! Aditi! 🎉🎂 Wishing you a day filled with love, joy, and unforgettable moments! 🥳🎈"; 
 const typingElement = document.getElementById('typing-text');
 let typeIndex = 0;
 
@@ -76,4 +76,5 @@ function scrollToGallery() {
 window.onload = function() {
     createParticles(); // Start the floating particles
     typeWriter();      // Start the typing effect
+
 };
